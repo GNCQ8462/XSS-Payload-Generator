@@ -317,7 +317,7 @@ if __name__ == "__main__":
             
             cfg = json.loads(line)
             res = XSSGenerator(cfg).build()
-            print(">>>" + res + "\n")
+            print(">>>result" + res + "\n")
             save_history(cfg, res)
             
         except json.JSONDecodeError:
