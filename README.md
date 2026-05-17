@@ -16,7 +16,7 @@
 
 4. [Payload Presets]
    - alert        : alert(1)
-   - cookie_steal : Send cookies using fetch()
+   - cookie_steal : Send cookies to server
    - redirect     : redirect to malicious page
    - keylogger    : key input interception
    - history      : Back-button hijacking by history API
@@ -69,7 +69,8 @@
 9. [Useful event handler list]
     [MEDIA]       : onerror, onload, onplay, onplaying, onvolumechange
     [INPUT/FORM]  : onfocus, onblur, oninput, onchange, onsubmit, oninvalid
-    [INTERACTION] : onmouseover, onmouseout, onclick, ondblclick, oncontextmenu, onwheel""[MODERN/PTR]  : onpointerover, onpointerenter, onpointerdown, onpointermove, onauxclick
+    [INTERACTION] : onmouseover, onmouseout, onclick, ondblclick, oncontextmenu, onwheel
+    [MODERN/PTR]  : onpointerover, onpointerenter, onpointerdown, onpointermove, onauxclick
     [MOBILE/TOUCH]: ontouchstart, ontouchmove, ontouchend, ontoggle
     [CSS/ANIM]    : onanimationstart, onanimationiteration, ontransitionend
 
