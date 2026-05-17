@@ -282,7 +282,8 @@ def print_help():
 8. [Useful event handler list]
     [MEDIA]       : onerror, onload, onplay, onplaying, onvolumechange
     [INPUT/FORM]  : onfocus, onblur, oninput, onchange, onsubmit, oninvalid
-    [INTERACTION] : onmouseover, onmouseout, onclick, ondblclick, oncontextmenu, onwheel""[MODERN/PTR]  : onpointerover, onpointerenter, onpointerdown, onpointermove, onauxclick
+    [INTERACTION] : onmouseover, onmouseout, onclick, ondblclick, oncontextmenu, onwheel
+    [MODERN/PTR]  : onpointerover, onpointerenter, onpointerdown, onpointermove, onauxclick
     [MOBILE/TOUCH]: ontouchstart, ontouchmove, ontouchend, ontoggle
     [CSS/ANIM]    : onanimationstart, onanimationiteration, ontransitionend
 ============================================================
