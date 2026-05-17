@@ -1,7 +1,4 @@
-# XSS-Payload-Generator
-============================================================
-              XSS Payload Generator User Guide
-============================================================
+# XSS-Payload-Generator user guide
 0. This script is an XSS payload generator. Users can forward their requests in json format, with a variety of actions and WAF bypass tricks available.
    It does not have the ability to detect XSS vulnerabilities, and fuzzing or automation is not possible.
    It should not be used for illegal purposes. Now have fun!
@@ -75,4 +72,4 @@
     [INTERACTION] : onmouseover, onmouseout, onclick, ondblclick, oncontextmenu, onwheel""[MODERN/PTR]  : onpointerover, onpointerenter, onpointerdown, onpointermove, onauxclick
     [MOBILE/TOUCH]: ontouchstart, ontouchmove, ontouchend, ontoggle
     [CSS/ANIM]    : onanimationstart, onanimationiteration, ontransitionend
-============================================================
+
